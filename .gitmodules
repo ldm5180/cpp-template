@@ -4,3 +4,6 @@
 [submodule "vendor/GUnit"]
 	path = vendor/GUnit
 	url = https://github.com/cpp-testing/GUnit.git
+[submodule "vendor/benchmark"]
+	path = vendor/benchmark
+	url = https://github.com/google/benchmark.git
