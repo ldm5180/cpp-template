@@ -15,6 +15,6 @@ Vagrant.configure(2) do |config|
 
   config.vm.provision "shell", privileged: false, inline: <<-SHELL
     set -x
-    run-parts -v /vagrant/vagrant.d
+    run-parts -v /vagrant/.vagrant.d
   SHELL
 end
