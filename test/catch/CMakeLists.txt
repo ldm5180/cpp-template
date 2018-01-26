@@ -21,4 +21,4 @@ macro(add_unit_test target_test sources)
     DEPENDS ${target_test})
 endmacro(add_unit_test)
 
-add_subdirectory(lib)
+add_unit_test(catch_unit_test 01_test.cpp)

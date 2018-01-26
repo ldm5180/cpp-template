@@ -12,13 +12,11 @@ include(git_hooks)
 include(compiler_flags)  
 
 # Testing libraries.
-include(benchmark)
 include(gtest)
 
 # Project specific include directories.
 include_directories(include)
 
 # Add the directories containing more CMakeLists.
-add_subdirectory(lib)
 add_subdirectory(src)
 add_subdirectory(test)

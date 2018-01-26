@@ -4,9 +4,6 @@
 [submodule "vendor/GUnit"]
 	path = vendor/GUnit
 	url = https://github.com/cpp-testing/GUnit.git
-[submodule "vendor/benchmark"]
-	path = vendor/benchmark
-	url = https://github.com/google/benchmark.git
 [submodule "vendor/catch2"]
 	path = vendor/catch2
 	url = https://github.com/catchorg/Catch2.git

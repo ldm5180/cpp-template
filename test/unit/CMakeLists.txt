@@ -24,4 +24,7 @@ macro(add_unit_test target target_test)
     DEPENDS ${target_test})
 endmacro(add_unit_test)
 
-add_subdirectory(lib)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/share/${PROJECT_NAME})
+
+add_executable(unit_test 01_test.cpp)
+add_unit_test(UnitTests unit_test)
